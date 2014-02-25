@@ -8,11 +8,11 @@ Decompress Apache Ant(* is Number)
 ==================
 tar zvxf apache-ant-*.tar.gz
 
-#Dont use root to decompress
+*Dont use root to decompress
 
 Edit /etc/profile
 ==================
-#Add to this code
+*Add to this code
 
 ANT_HOME=/opt/apache-ant-*
 PATH=$ANT_HOME/bin:$PATH
@@ -23,5 +23,5 @@ source  /etc/profile
 
 Check Ant version 
 ==================
-ant -versio
+ant -version
 
